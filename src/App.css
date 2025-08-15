@@ -36,6 +36,13 @@
   margin-bottom: 15px;
 }
 
+.copyright {
+  color: #888;
+  font-size: 0.8em;
+  margin-top: 1em;
+  font-weight: 200;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;

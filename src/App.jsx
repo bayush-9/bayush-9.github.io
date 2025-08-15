@@ -84,7 +84,9 @@ function App() {
       >
         {SocialIcons()}
       </div>
+      <h6>website designing is an art and I am an engineer </h6>
       <h6>made in house with ❤️ by Ayush Bharsakle</h6>
+      <h6 className="copyright">© 2024 Ayush Anil Bharsakle</h6>
     </div>
   );
 }

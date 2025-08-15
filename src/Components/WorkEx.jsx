@@ -9,7 +9,7 @@ const WorkEx = (props) => {
 
   return (
     <div>
-      <h2 className="h2">Education Timeline</h2>
+      <h2 className="h2">Working Experience</h2>
       <div style={{ display: "flex", flexDirection: "row" }}>
         <div
           style={{
