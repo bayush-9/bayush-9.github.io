@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <h1 className="h1">Ayush Anil Bharsakle</h1>
-      <h2 className="h2">Mobile App Developer</h2>
+      <h2 className="h2">Software Developer</h2>
       <h3 className="bio">
         I'm a software engineer focused on building high-performance mobile apps
         with React Native, integrated with native iOS (Swift) and Android
