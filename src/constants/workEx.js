@@ -4,11 +4,15 @@ const workEx = [
     position: "Software Development Engineer - 1 (Full Stack)",
     duration: "Nov 2025 - Present",
     description: [
-      "Built full stack driver-load smart recommendation engine using Hungarian algorithm with weighted scoring.",
+      "Built full stack driver-load smart recommendation engine.",
+      "Migrated all the recommendation algorithm to a Google Operational Research Tools",
+      "Implemented Multi-Load Matching via Pickup-and-Delivery Problem with Time Windows (PDPTW), classic NP hard problem",
+      "Introduced data set pruning using K-Means++ geographical clustering of trucks and loads in order to optimize processing and API response by 3x",
+      "Used Hungarian algorithm with weighted scoring technique to find best load-truck matches",
       "Used SciPy and NumPy for optimized graph-based calculations on bipartite matching (50+ drivers and loads).",
       "Built bid management Kanban tool for carriers using Gemini-Flash to parse XLSX files and extract structured data.",
       "Wrote APIs for updating statuses and managing lane-level bids.",
-      "Tech: React.js, FastAPI",
+      "Tech: React.js, FastAPI, Google OR tools",
     ],
   },
 
