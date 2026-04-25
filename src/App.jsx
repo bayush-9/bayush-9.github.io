@@ -1,4 +1,5 @@
 import "./App.css";
+import EducationTimeline from "./Components/EducationTimeline.jsx";
 import SocialIcons from "./Components/SocialIcons";
 import WorkEx from "./Components/WorkEx";
 import workEx from "./constants/workEx.js";
@@ -11,12 +12,17 @@ function App() {
       <h1 className="h1">Ayush Anil Bharsakle</h1>
       <h2 className="h2">Software Developer</h2>
       <h3 className="bio">
-        I'm a software engineer focused on building high-performance mobile apps
-        with React Native, integrated with native iOS (Swift) and Android
-        (Java/Kotlin) modules. I work across the stack from BLE communication
-        and native bridges to automation with Appium and testable, scalable code
-        in TypeScript. I care about clean architecture, reliability, and solving
-        hard technical problems that ship.
+        Results-driven Software Development Engineer with extensive experience
+        in architecting full-stack and mobile solutions for the logistics
+        sector. I specialize in solving complex optimization problems, utilizing
+        Google OR-Tools and the Hungarian algorithm to resolve NP-hard PDPTW
+        challenges. My expertise spans building high-performance FastAPI
+        backends and cross-platform React Native applications, with a proven
+        track record of improving API efficiency by 3x via K-Means++ clustering.
+        From integrating Gemini-Flash for AI-driven data parsing to managing
+        end-to-end CI/CD pipelines and IoT BLE modules, I focus on delivering
+        scalable, compliant, and pixel-perfect software that drives operational
+        excellence.
       </h3>
       <div style={{ height: 40 }} />
       <h2 className="h2">Technical Skills</h2>
@@ -29,16 +35,18 @@ function App() {
         ></div>
         <div style={{ marginLeft: 10 }}>
           <h3 className="h3">Languages</h3>
-          <h4 className="h4">JavaScript, TypeScript, C++, Swift, Dart</h4>
+          <h4 className="h4">
+            JavaScript, TypeScript, Python, C++, Swift, Dart
+          </h4>
           <div style={{ height: 5 }} />
           <h3 className="h3">Frameworks</h3>
-          <h4 className="h4">React Native, SwiftUI, Flutter</h4>
+          <h4 className="h4">React Native, FastApi, SwiftUI, Flutter</h4>
           <div style={{ height: 5 }} />
           <h3 className="h3">Meta</h3>
           <h4 className="h4">
             Android Studio, XCode, Firebase, Git, Github, Bitrise CI/CD,
-            Onesignal, Google Play Console, App store connect, Appium, BLE, IoT,
-            Clickup
+            Onesignal, Google Play Console, App store connect, Google OR Tools,
+            Appium, BLE, IoT, Clickup, Cursor, Dbeaver
           </h4>
 
           <div style={{ height: 5 }} />
@@ -48,33 +56,12 @@ function App() {
           </h4>
         </div>
       </div>
-      <div style={{ height: 40 }} />
-      <h2 className="h2">Education Timeline</h2>
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <div
-          style={{
-            width: "2px",
-            backgroundColor: "#636362",
-          }}
-        ></div>
-        <div style={{ marginLeft: 10 }}>
-          <h3 className="h3">
-            Indian Institute of Technology(BHU), Varanasi (2020-2024)
-          </h3>
-          <h4 className="h4">Bachelor of Technology (8.65/10)</h4>
-          <div style={{ height: 5 }} />
-          <h3 className="h3">
-            Narayana Junior College, Aurangabad (2018-2020)
-          </h3>
-          <h4 className="h4">Physics, Chemistry and Mathematics (92.3%)</h4>
-        </div>
-      </div>
 
       <div style={{ height: 40 }} />
 
       <WorkEx workEx={workEx} />
 
-      <div style={{ height: 40 }} />
+      <EducationTimeline />
 
       <div
         style={{
@@ -84,9 +71,9 @@ function App() {
       >
         {SocialIcons()}
       </div>
-      <h6>website designing is an art and I am an engineer </h6>
+      <h6>website designing is an art and I am an engineer 🐣 </h6>
       <h6>made in house with ❤️ by Ayush Bharsakle</h6>
-      <h6 className="copyright">© 2024 Ayush Anil Bharsakle</h6>
+      <h6 className="copyright">© 2026 Ayush Anil Bharsakle</h6>
     </div>
   );
 }
