@@ -1,6 +1,19 @@
 const workEx = [
   {
     orgName: "TruckX Inc",
+    position: "Software Development Engineer - 1 (Full Stack)",
+    duration: "Nov 2025 - Present",
+    description: [
+      "Built full stack driver-load smart recommendation engine using Hungarian algorithm with weighted scoring.",
+      "Used SciPy and NumPy for optimized graph-based calculations on bipartite matching (50+ drivers and loads).",
+      "Built bid management Kanban tool for carriers using Gemini-Flash to parse XLSX files and extract structured data.",
+      "Wrote APIs for updating statuses and managing lane-level bids.",
+      "Tech: React.js, FastAPI",
+    ],
+  },
+
+  {
+    orgName: "TruckX Inc",
     position: "Software Development Engineer - 1",
     duration: "June 2024 - Present",
     description: [
