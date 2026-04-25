@@ -4,7 +4,7 @@ const workEx = [
     position: "Software Development Engineer - 1 (Full Stack)",
     duration: "Nov 2025 - Present",
     description: [
-      "Built full stack driver-load smart recommendation engine.",
+      "Built full stack driver-load smart recommendation engine as part of new project HeyBubba.ai",
       "Migrated all the recommendation algorithm to a Google Operational Research Tools",
       "Implemented Multi-Load Matching via Pickup-and-Delivery Problem with Time Windows (PDPTW), classic NP hard problem",
       "Introduced data set pruning using K-Means++ geographical clustering of trucks and loads in order to optimize processing and API response by 3x",
@@ -19,7 +19,7 @@ const workEx = [
   {
     orgName: "TruckX Inc",
     position: "Software Development Engineer - 1",
-    duration: "June 2024 - Present",
+    duration: "June 2024 - Nov 2025",
     description: [
       "Worked on the main customer-facing Driver Logbook App using React Native framework.",
       "Extensively used Redux-Saga, Axios, Async-Storage, RN-SQLite database, and RN-FileSystem.",
