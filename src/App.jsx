@@ -4,11 +4,9 @@ import SocialIcons from "./Components/SocialIcons";
 import WorkEx from "./Components/WorkEx";
 import workEx from "./constants/workEx.js";
 
-const styles = {};
-
 function App() {
   return (
-    <div>
+    <main className="portfolio-shell">
       <h1 className="h1">Ayush Anil Bharsakle</h1>
       <h2 className="h2">Software Developer</h2>
       <h3 className="bio">
@@ -26,14 +24,9 @@ function App() {
       </h3>
       <div style={{ height: 40 }} />
       <h2 className="h2">Technical Skills</h2>
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <div
-          style={{
-            width: "2px",
-            backgroundColor: "#636362",
-          }}
-        ></div>
-        <div style={{ marginLeft: 10 }}>
+      <div className="timeline-block">
+        <div className="timeline-line"></div>
+        <div className="timeline-content skill-list">
           <h3 className="h3">Languages</h3>
           <h4 className="h4">
             JavaScript, TypeScript, Python, C++, Swift, Dart
@@ -63,18 +56,13 @@ function App() {
 
       <EducationTimeline />
 
-      <div
-        style={{
-          flexDirection: "row",
-          // justifyContent: "space-between",
-        }}
-      >
+      <div className="social-row">
         {SocialIcons()}
       </div>
-      <h6>website designing is an art and I am an engineer 🐣 </h6>
-      <h6>made in house with ❤️ by Ayush Bharsakle</h6>
+      <h6 className="footer-note">website designing is an art and I am an engineer 🐣 </h6>
+      <h6 className="footer-note">made in house with ❤️ by Ayush Bharsakle</h6>
       <h6 className="copyright">© 2026 Ayush Anil Bharsakle</h6>
-    </div>
+    </main>
   );
 }
 

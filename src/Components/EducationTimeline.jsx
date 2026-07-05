@@ -1,16 +1,11 @@
 const EducationTimeline = () => {
   return (
-    <>
+    <section className="section">
       <div style={{ height: 40 }} />
       <h2 className="h2">Education Timeline</h2>
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <div
-          style={{
-            width: "2px",
-            backgroundColor: "#636362",
-          }}
-        ></div>
-        <div style={{ marginLeft: 10 }}>
+      <div className="timeline-block">
+        <div className="timeline-line"></div>
+        <div className="timeline-content">
           <h3 className="h3">
             Indian Institute of Technology(BHU), Varanasi (2020-2024)
           </h3>
@@ -23,7 +18,7 @@ const EducationTimeline = () => {
         </div>
       </div>
       <div style={{ height: 40 }} />
-    </>
+    </section>
   );
 };
 
