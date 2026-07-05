@@ -1,38 +1,22 @@
 import "./WorkEx.css";
-/**
- *
- * @param {} props
- * @returns
- */
-const WorkEx = (props) => {
-  console.log("WorkEx component rendered", props);
 
+const WorkEx = (props) => {
   return (
-    <div>
+    <section className="section">
       <h2 className="h2">Working Experience</h2>
-      <div style={{ display: "flex", flexDirection: "row" }}>
-        <div
-          style={{
-            width: "2px",
-            backgroundColor: "#636362",
-          }}
-        ></div>
-        <div>
+      <div className="timeline-block">
+        <div className="timeline-line"></div>
+        <div className="timeline-content">
           {props.workEx.map((work, index) => (
             <div key={index} className="work-experience">
-              <div>
-                <div style={{ marginLeft: 10 }}>
-                  <h3 className="h3">
-                    {work.position} at {work.orgName}, {work.duration}
-                  </h3>
-                  {work.description.map((desc, descIndex) => (
-                    <p key={descIndex} className="p">
-                      {"•"} {desc}
-                    </p>
-                  ))}
-                </div>
-              </div>
-              <div />
+              <h3 className="h3">
+                {work.position} at {work.orgName}, {work.duration}
+              </h3>
+              {work.description.map((desc, descIndex) => (
+                <p key={descIndex} className="p">
+                  {"•"} {desc}
+                </p>
+              ))}
               {props.workEx.length - 1 !== index && (
                 <div style={{ height: 30 }} />
               )}
@@ -40,7 +24,7 @@ const WorkEx = (props) => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 export default WorkEx;
