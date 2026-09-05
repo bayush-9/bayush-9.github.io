@@ -1,8 +1,21 @@
 const workEx = [
   {
-    orgName: "TruckX Inc",
+    orgName: "HeyBubba.ai",
+    position: "Software Development Engineer - 2 (Full Stack)",
+    duration: "Jun 2026 - Present",
+    description: [
+      "Built and evolved a React Native mobile application spanning web containers and native iOS/Android components,owning features across architecture, native integrations, reliability, UX and release cycles.",
+      "• Reduced battery consumption 35% by integrating VAD into the foreground wake-word service; later migrated ONNX inference to LiteRT , reducing battery consumption and bundle size by approximately 50% while maintaining backward compatibility. Built a full fledge voice only wake service which launches the voice socket and floating interactions.",
+      "Reworked the iOS audio pipeline around a shared, demand-driven audio engine coordinating wake-word detection, recording, and playback, with resilient state management and recovery from race conditions and audio interruptions.",
+      "Built native Android notification flows using FCM and full-screen intents for time-sensitive driver alerts; resolved deep-linking and WebView issues and expanded the application to iPad",
+      "Established and maintained Expo remote-build infrastructure and mobile CI/CD workflows using Expo and Bitrise.",
+      "Worked on the electron based desktop app Loadsurf⁠ app, maintained and developed features and release pipelines. Took complete ownership of all the native releases across Play console and App store connect",
+    ],
+  },
+  {
+    orgName: "HeyBubba.ai",
     position: "Software Development Engineer - 1 (Full Stack)",
-    duration: "Nov 2025 - Present",
+    duration: "Nov 2025 - June 2026",
     description: [
       "Built full stack driver-load smart recommendation engine as part of new project HeyBubba.ai",
       "Migrated all the recommendation algorithm to a Google Operational Research Tools",

@@ -10,17 +10,13 @@ function App() {
       <h1 className="h1">Ayush Anil Bharsakle</h1>
       <h2 className="h2">Software Developer</h2>
       <h3 className="bio">
-        Results-driven Software Development Engineer with extensive experience
-        in architecting full-stack and mobile solutions for the logistics
-        sector. I specialize in solving complex optimization problems, utilizing
-        Google OR-Tools and the Hungarian algorithm to resolve NP-hard PDPTW
-        challenges. My expertise spans building high-performance FastAPI
-        backends and cross-platform React Native applications, with a proven
-        track record of improving API efficiency by 3x via K-Means++ clustering.
-        From integrating Gemini-Flash for AI-driven data parsing to managing
-        end-to-end CI/CD pipelines and IoT BLE modules, I focus on delivering
-        scalable, compliant, and pixel-perfect software that drives operational
-        excellence.
+        Software Engineer with 3+ years of experience building production mobile
+        and full-stack products. Deep expertise in React Native, native
+        iOS/Android development, performance optimization, and backend systems,
+        with experience owning features end-to-end across mobile, distributed
+        services, AI integrations, and production infrastructure. Leveraging AI
+        tools like Cursor and Claude to build high performance software
+        solutions that solve real world logistics problems.
       </h3>
       <div style={{ height: 40 }} />
       <h2 className="h2">Technical Skills</h2>
@@ -56,10 +52,10 @@ function App() {
 
       <EducationTimeline />
 
-      <div className="social-row">
-        {SocialIcons()}
-      </div>
-      <h6 className="footer-note">website designing is an art and I am an engineer 🐣 </h6>
+      <div className="social-row">{SocialIcons()}</div>
+      <h6 className="footer-note">
+        website designing is an art and I am an engineer 🐣{" "}
+      </h6>
       <h6 className="footer-note">made in house with ❤️ by Ayush Bharsakle</h6>
       <h6 className="copyright">© 2026 Ayush Anil Bharsakle</h6>
     </main>
